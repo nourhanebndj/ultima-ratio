@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Questions d'entretien Campus France et Paris-Saclay — Ultima Ratio</title>
+  <meta name="description" content="Banque de questions d'entretien Campus France et d'admission en master, avec un conseil de réponse pour chacune.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,600&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/img/logo.jpg">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header id="site-header"></header>
+
+  <main>
+    <section class="hero page-hero">
+      <div class="wrap">
+        <div>
+          <p class="crumbs"><a href="index.html">Accueil</a> / Entretiens</p>
+          <span class="eyebrow">Guide 03</span>
+          <h1>Les questions d'entretien, <em>et comment y répondre</em></h1>
+          <p class="lead">L'entretien Campus France dure une vingtaine de minutes. Le conseiller ne cherche pas à te piéger : il veut vérifier que ton projet est le tien, qu'il est cohérent et que tu peux le mener à bien.</p>
+          <div class="btn-row">
+            <a class="btn" href="#questions">Parcourir les questions</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <span class="eyebrow">Méthode</span>
+        <h2>Ce que le conseiller évalue</h2>
+        <div class="grid c3" style="margin-top:30px">
+          <div class="card"><div class="num">1</div><h3>La cohérence</h3><p>Le lien entre ce que tu as étudié, ce que tu demandes et le métier que tu vises. Chaque vœu doit s'expliquer en une phrase.</p></div>
+          <div class="card"><div class="num">2</div><h3>La connaissance du projet</h3><p>Connais-tu vraiment tes formations : les cours, la ville, la durée, les débouchés ? Les réponses vagues se repèrent vite.</p></div>
+          <div class="card"><div class="num">3</div><h3>La faisabilité</h3><p>Ton niveau de français, tes résultats, ton financement et ton logement rendent-ils ce projet réaliste ?</p></div>
+        </div>
+
+        <div class="grid c2" style="margin-top:44px">
+          <div>
+            <h3>Avant l'entretien</h3>
+            <ul>
+              <li>Relis ton dossier : tout ce que tu as écrit peut t'être demandé.</li>
+              <li>Prépare une présentation de deux minutes, sans la réciter.</li>
+              <li>Pour chaque vœu, note trois cours, la ville et un débouché.</li>
+              <li>Chiffre ton budget mensuel : loyer, repas, transport, assurance.</li>
+              <li>Entraîne-toi à voix haute, en te chronométrant ou avec un ami.</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Le jour J</h3>
+            <ul>
+              <li>Arrive en avance avec ta convocation, ton passeport et tes originaux.</li>
+              <li>Parle lentement. Une phrase simple et juste vaut mieux qu'une phrase compliquée.</li>
+              <li>Si tu n'as pas compris, demande de répéter : c'est normal.</li>
+              <li>Ne récite pas un texte appris par cœur, cela s'entend tout de suite.</li>
+              <li>Reste honnête : une faiblesse expliquée passe mieux qu'une faiblesse cachée.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section alt" id="questions">
+      <div class="wrap" style="max-width:900px">
+        <span class="eyebrow">Banque de questions</span>
+        <h2>Toutes les questions par thème</h2>
+        <p class="lead">Clique sur une question pour afficher le conseil. Ce ne sont pas des réponses à apprendre : ta réponse doit venir de ton propre parcours.</p>
+        <div class="toolbar">
+          <input class="search" id="q-search" type="search" placeholder="Rechercher un mot-clé…" aria-label="Rechercher une question">
+        </div>
+        <div class="chips" id="q-chips" role="group" aria-label="Filtrer par thème"></div>
+        <p class="progress-label" id="q-count"></p>
+        <div id="q-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+  <script src="assets/js/site.js"></script>
+  <script src="assets/js/entretien.js"></script>
+</body>
+</html>
